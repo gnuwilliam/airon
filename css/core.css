@@ -13,4 +13,20 @@ html, body {
 
 header .brand {
   font-family: 'Ruda', sans-serif;
+  color: #c3c3c3;
+  font-size: 42px;
+  margin-bottom: 0;
+}
+
+header .brand b {
+  color: #696969;
+}
+
+header .brand span {
+  color: #FF7171;
+}
+
+header small {
+  display: block;
+  margin-top: -5px;
 }
