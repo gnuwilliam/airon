@@ -43,3 +43,53 @@ header small {
   margin-top: -5px;
 }
 
+.menu {
+  margin: 10px 0;
+  width: 100%;
+  background-color: #FFF;
+  padding: 10px 0;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.05);
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.menu ul li:first-child {
+  padding-left: 0;
+}
+
+.menu ul li:last-child {
+  padding-right: 0;
+}
+
+.menu ul li a {
+  color: #C4C4C4;
+  text-decoration: none;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu ul li a:hover {
+  color: #313131;
+}
+
+.menu ul li a:hover span {
+  color: #FF7171;
+}
+
+.menu ul li a span {
+  color: #FFF;
+}
