@@ -14,7 +14,6 @@ html, body {
   width: 960px;
   position: relative;
   margin: 0 auto;
-  padding: 0 50px;
   box-sizing: border-box;
 }
 
@@ -43,7 +42,7 @@ header .brand-container {
 header .brand {
   font-family: 'Ruda', sans-serif;
   color: #c3c3c3;
-  font-size: 42px;
+  font-size: 54px;
   margin-bottom: 0;
 }
 
@@ -57,7 +56,9 @@ header .brand span {
 
 header small {
   display: block;
-  margin-top: -5px;
+  margin-top: -10px;
+  font-size: 16px;
+  color: #FF7B7B;
 }
 
 .menu {
@@ -67,6 +68,7 @@ header small {
   padding: 10px 0;
   box-sizing: border-box;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
 .menu ul {
@@ -109,4 +111,101 @@ header small {
 
 .menu ul li a span {
   color: #FFF;
+}
+
+/* Courses definitions */
+.courses {
+  background-color: #3BB3EB;
+}
+.courses h1 {
+  background-color: #0871A2;
+  color: #FFF;
+}
+
+/* Screencasts definitions */
+.screencasts {
+  background-color: #3BEBBA;
+}
+.screencasts h1 {
+  background-color: #06966E;
+  color: #FFF;
+}
+
+.section {
+  width: 100%;
+  margin: 0;
+  padding-bottom: 25px;
+  display: inline-block;
+}
+
+.section:first-child {
+  margin-top: -10px;
+}
+
+.section h1 {
+  margin: 20px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.04);
+  text-transform: uppercase;
+}
+
+.section h1 span {
+  color: #FF7171;
+}
+
+.section .section-card {
+  display: inline-block;
+  max-width: 280px;
+  float: left;
+  margin-right: 60px;
+  background-color: #FFF;
+  padding: 15px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  min-height: 357px;
+  border-radius: 3px;
+  border: 1px solid #F5F5F5;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.section .section-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.40);
+}
+
+.section .section-card:nth-child(4) {
+  margin-right: 0;
+}
+
+.section .section-card h3 {
+  margin: 5px 0;
+  text-align: center;
+  font-weight: 300;
+}
+
+.section .section-card p {
+  color: #8A8888;
+  font-weight: 100;
+}
+
+.section hr {
+  width: 100%;
+  margin: 5px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.section .read-more {
+  display: block;
+  clear: both;
+  box-sizing: border-box;
+  float: right;
+  margin: 10px 0;
 }
