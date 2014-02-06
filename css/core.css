@@ -11,11 +11,28 @@ html, body {
 }
 
 .container {
-  width: 100%;
+  width: 960px;
   position: relative;
   margin: 0 auto;
   padding: 0 50px;
   box-sizing: border-box;
+}
+
+@media only screen and (max-width : 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .menu ul {
+    width: 100%;
+  }
+  .menu ul li {
+    width: 100%;
+    display: inline-block !important;
+    clear: both;
+    padding: 5px 0 !important;
+    text-align: center;
+  }
 }
 
 header .brand-container {
