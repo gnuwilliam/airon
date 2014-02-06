@@ -100,6 +100,7 @@ html, body {
 .courses {
   background-color: #3BB3EB;
 }
+
 .courses h1 {
   background-color: #0871A2;
   color: #FFF;
@@ -109,9 +110,78 @@ html, body {
 .screencasts {
   background-color: #3BEBBA;
 }
+
 .screencasts h1 {
   background-color: #06966E;
   color: #FFF;
+}
+
+/* Sobre definitions */
+.about {
+  background-color: #707070;
+}
+
+.about-text {
+  background-color: #FFF;
+  padding: 20px 0;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.about h1 {
+  background-color: #383838;
+  color: #FFF;
+}
+
+.about figure {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.about p {
+  width: 90%;
+  display: block;
+  margin: 25px auto;
+  color: #A2A2A2;
+}
+
+.about p strong {
+  color: #000;
+}
+
+.about p a {
+  text-decoration: none;
+  color: #0099E0;
+}
+
+.about p a:hover {
+  text-decoration: underline;
+}
+
+.about figure img {
+  width: 100%;
+  height: auto;
+}
+
+/* Contact defititions */
+.contact {
+  background-color: #707070;
+}
+
+.contact h1 {
+  background-color: #383838;
+  color: #FFF;
+}
+
+.contact iframe {
+  min-height: 65%;
+  width: 100%;
+  padding: 20px 0;
 }
 
 .section {
