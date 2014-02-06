@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app="App">
   <head>
     <title>airon</title>
     <meta charset="utf-8">
@@ -21,11 +21,11 @@
     <div class="menu">
       <div class="container">
         <ul>
-          <li><a href="#"><span>/</span>home</a></li>
-          <li><a href="#"><span>/</span>cursos</a></li>
-          <li><a href="#"><span>/</span>screencasts</a></li>
-          <li><a href="#"><span>/</span>sobre</a></li>
-          <li><a href="#"><span>/</span>contato</a></li>
+          <li><a href="/#/"><span>/</span>home</a></li>
+          <li><a href="/#/cursos"><span>/</span>cursos</a></li>
+          <li><a href="/#/screencasts"><span>/</span>screencasts</a></li>
+          <li><a href="/#/sobre"><span>/</span>sobre</a></li>
+          <li><a href="/#/contato"><span>/</span>contato</a></li>
         </ul>
       </div>
     </div>
@@ -47,5 +47,7 @@
 
     <script type="text/javascript" src="bower/angular/angular.js"></script>
     <script type="text/javascript" src="bower/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/modules/airon.js"></script>
   </body>
 </html>
