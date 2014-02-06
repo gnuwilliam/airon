@@ -147,15 +147,27 @@ html, body {
   padding: 15px;
   padding-top: 5px;
   box-sizing: border-box;
-  min-height: 357px;
+  min-height: 365px;
   border-radius: 3px;
-  border: 1px solid #F5F5F5;
+  border: 1px solid #FFF;
+  cursor: pointer;
 
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.section .section-card figure {
+  width: 248px;
+  height: 248px;
+  overflow: hidden;
+}
+
+.section .section-card figure img {
+  width: 100%;
+  height: 100%;
 }
 
 .section .section-card:hover {
@@ -175,6 +187,7 @@ html, body {
 .section .section-card p {
   color: #8A8888;
   font-weight: 100;
+  padding: 5px 0;
 }
 
 .section hr {
@@ -283,6 +296,10 @@ html, body {
     text-align: center;
     border-radius: 0;
     margin: 15px 0;
+  }
+
+  .section .section-card figure {
+    margin: 0 auto;
   }
 
   .section .read-more {
